@@ -19,12 +19,13 @@ import lombok.Data;
 @Table(name = "user", schema = "public")
 public class UserEntity  {
 
+
 	/**
 	 * ID
 	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id")
+	@Column(name = "ib")
 	private Integer id;
 
 	/**
